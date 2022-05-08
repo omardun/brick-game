@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(124, 253, 210);
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+body {
+    background-color: #4ffff0;
+}
+.brickgame {
+    display: grid;
+}
+
+.header {
+    background-color: black;
+    height: 2em;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    flex-direction: row;
+}
+.brickgame {
+    height: 50em;
+    margin: 2em;
+    background-color: black;
+}
+.redcontainer {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: 2;
+    grid-auto-rows: 26px;
+    grid-gap: 3px;
+    height: 10x;
+    padding-top: 26px;
+    margin: 0;
+}
+.red {
+    height: 25px;
+    width: 100%;
+    background-color: red;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.yellow {
+    height: 25px;
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.blue {
+    height: 25px;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.green {
+    height: 25px;
+    width: 100%;
+    background-color: green;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.ball1 {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+}
+.ball2 {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+}
+.ball3 {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    position: relative;
+    left: 59px;
+    top: 25px;
+}
+.aquacontainer {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: 2;
+    grid-auto-rows: 26px;
+    grid-gap: 3px;
+    height: 10x;
+    padding-top: 26px;
+    margin: 0;
+}
+
